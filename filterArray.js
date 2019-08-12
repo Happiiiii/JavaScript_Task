@@ -44,5 +44,5 @@ var data = [
 var search = data.filter((names) =>  names.name.includes("j")); //startsWith => print 1st char starts with "j"
 console.log(search);
 
-var dob = data.filter((year) => year.age > 18); // print age > 18 in 
+var dob = data.filter((year) => year.age > 18); // print data( age > 18 )
 console.log(dob);
