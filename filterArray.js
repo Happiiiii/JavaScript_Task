@@ -36,13 +36,13 @@ var data = [
         age:17
     },
     {
-        name:"meera",
-        age:25
+        name:"meera", //data1
+        age:25        //data2
     }
 ];
   
-var search = data.filter((names) =>  names.name.startsWith("j")); //startsWith => print 1st char starts with "j" , includes => print the string that has "j" in any position
+var search = data.filter((data1) =>  data1.name.startsWith("j")); //startsWith => print  string 1st char starts with "j" , includes => print the string that has "j" in any position
 console.log(search);
 
-var dob = data.filter((year) => year.age > 18); // print data( age > 18 )
+var dob = data.filter((data2) => data2.age > 18); // print data( age > 18 )
 console.log(dob);
